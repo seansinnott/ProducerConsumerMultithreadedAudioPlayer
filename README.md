@@ -1,2 +1,8 @@
-# ProducerConsumerMultithreadedAudioPlayer
-An audio player in Java that uses producer consumer model to multi-thread the process
+# The supplied applet plays audio data from the file toto.wav.
+The applet also comes with a text area for entering commands.
+
+To compile the applet:
+$ javac *.java
+
+To launch the applet:
+$ appletviewer -J"-Djava.security.policy=all.policy" audio.html
